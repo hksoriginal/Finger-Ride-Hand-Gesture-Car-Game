@@ -46,7 +46,7 @@ score_lb.place(x=0, y=0, height=100, width=940)
 
 
 def game():
-
+    score_lb['text'] = "Score: 0"
     score_lb['bg'] = '#333333'
 
     count = 0
